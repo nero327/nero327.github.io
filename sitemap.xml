@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ddcgd.top/2023/03/12/test/</loc>
+    
+    <lastmod>2023-03-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://ddcgd.top/categories/index.html</loc>
     
     <lastmod>2023-03-12</lastmod>
@@ -47,15 +56,6 @@
   </url>
   
   <url>
-    <loc>http://ddcgd.top/2023/03/12/test/</loc>
-    
-    <lastmod>2023-03-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://ddcgd.top/2023/03/12/hello-world/</loc>
     
     <lastmod>2023-02-23</lastmod>
@@ -67,15 +67,15 @@
 
   <url>
     <loc>http://ddcgd.top/</loc>
-    <lastmod>2023-03-12</lastmod>
+    <lastmod>2023-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://ddcgd.top/tags/test-test2/</loc>
-    <lastmod>2023-03-12</lastmod>
+    <loc>http://ddcgd.top/tags/test/</loc>
+    <lastmod>2023-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -83,8 +83,8 @@
 
   
   <url>
-    <loc>http://ddcgd.top/categories/%E5%AD%A6%E4%B9%A0-java/</loc>
-    <lastmod>2023-03-12</lastmod>
+    <loc>http://ddcgd.top/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2023-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

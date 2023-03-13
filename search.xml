@@ -26,12 +26,15 @@
   <entry>
     <title>tags</title>
     <url>/2023/03/12/test/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>#tkinter</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> subprocess</span><br><span class="line"><span class="keyword">import</span> tkinter <span class="keyword">as</span> tk</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Application</span>(tk.Frame):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, master=<span class="literal">None</span></span>):</span><br><span class="line">        <span class="built_in">super</span>().__init__(master)</span><br><span class="line">        self.master = master</span><br><span class="line">        self.pack()</span><br><span class="line">        self.create_widgets()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">create_widgets</span>(<span class="params">self</span>):</span><br><span class="line">        self.text = tk.Text(self)</span><br><span class="line">        self.text.pack()</span><br><span class="line"></span><br><span class="line">        self.button = tk.Button(self)</span><br><span class="line">        self.button[<span class="string">&quot;text&quot;</span>] = <span class="string">&quot;Ping&quot;</span></span><br><span class="line">        self.button[<span class="string">&quot;command&quot;</span>] = self.ping</span><br><span class="line">        self.button.pack()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">ping</span>(<span class="params">self</span>):</span><br><span class="line">        self.text.delete(<span class="string">&quot;1.0&quot;</span>, tk.END)</span><br><span class="line">        ping = subprocess.Popen(</span><br><span class="line">            [<span class="string">&quot;ping&quot;</span>, <span class="string">&quot;8.8.8.8&quot;</span>],</span><br><span class="line">            stdout=subprocess.PIPE,</span><br><span class="line">            stderr=subprocess.PIPE,</span><br><span class="line">            universal_newlines=<span class="literal">True</span>,</span><br><span class="line">        )</span><br><span class="line">        <span class="keyword">for</span> line <span class="keyword">in</span> <span class="built_in">iter</span>(ping.stdout.readline, <span class="string">&quot;&quot;</span>):</span><br><span class="line">            self.text.insert(tk.END, line)</span><br><span class="line">            self.text.see(tk.END)</span><br><span class="line"></span><br><span class="line">root = tk.Tk()</span><br><span class="line">app = Application(master=root)</span><br><span class="line">app.mainloop()</span><br></pre></td></tr></table></figure>
+<p><img src="https://fastly.jsdelivr.net/gh/nero327/imag@main/image/1678722256658uTools_1655876157441.png"><br><img src="https://fastly.jsdelivr.net/gh/nero327/imag@main/image/16787234292421678723428597.png"><br><img src="https://cdn.jsdelivr.net/gh/nero327/imag/image/1678723962616uTools_1655876157441.png"></p>
+]]></content>
       <categories>
-        <category>-学习 -java</category>
+        <category>-编程</category>
       </categories>
       <tags>
-        <tag>-test -test2</tag>
+        <tag>-test</tag>
       </tags>
   </entry>
   <entry>
